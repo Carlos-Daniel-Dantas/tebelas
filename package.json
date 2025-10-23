@@ -1,0 +1,25 @@
+{
+  "name": "tabelas",
+  "version": "1.0.0",
+  "description": "estudos sobre tabelas com html e css",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Carlos-Daniel-Dantas/tebelas.git"
+  },
+  "keywords": [
+    "tabela",
+    "css",
+    "e",
+    "html"
+  ],
+  "author": "Carlos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Carlos-Daniel-Dantas/tebelas/issues"
+  },
+  "homepage": "https://github.com/Carlos-Daniel-Dantas/tebelas#readme"
+}
