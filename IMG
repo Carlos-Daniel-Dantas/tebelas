@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudos sobre tabela</title>
+    <link rel="stylesheet" href="Estudos sobre tabela">
+
+<style>
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box ;
+    }
+    table, th, td{
+        border-color: blueviolet;
+        border-width: 2px;
+        border-style: solid;
+        border-collapse: collapse;
+        padding: 10px;
+
+    }
+
+
+    th{
+        background: #a9a9a9;
+    }
+
+    .aling{
+        text-align: center;
+        
+    }
+
+</style>
+</head>
+
+<thead>
+    <tr>
+        <th>Título 01</th>
+        <th>Título 02</th>
+        <th>Título 03</th>
+    </tr>
+</thead>
+
+<tbody>
+    
+    <body>
+        <table>
+
+            <tr>
+                <td>Informações01</td>
+                <td>Informações02</td>
+                <td>Informações03</td>
+            </tr>
+
+            <tr>
+                <td>Informações04</td>
+                <td>Informações05</td>
+                <td>Informações06</td>
+            </tr>
+            <tr>
+                <td>Informações07</td>
+                <td>Informações08</td>
+                <td>Informações09</td>
+            </tr>
+        </table>
+    </body>
+
+</tbody>
+
+<tfoot>
+    <tr>
+        <td colspan="3" class="aling"> Dados estraidos em 23/10/25</td>
+    </tr>
+</tfoot>
+
+</html>
